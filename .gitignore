@@ -1,0 +1,46 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Tool caches
+.eslintcache
+.prettiercache
+
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+
+# Build outputs
+TaskManager/dist/
+TaskManagerWeb/dist/
+dist/
+
+# Vite cache
+.vite/
+
+# Test coverage
+coverage/
+*.lcov
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Backend uploads (keep shipped themes)
+TaskManager/uploads/*
+!TaskManager/uploads/themes/
+!TaskManager/uploads/themes/**
+
+# Misc
+*.local
